@@ -14,7 +14,7 @@ const BlogPost = () => {
   return (
     <div className="mainContainer">
       <div className="blogdisplaycontainer">
-        <h1>Blog Post</h1>
+        {/* <h1>Blog Post</h1> */}
         <h6>Total Blog: {post.length}</h6>
         {post.map((item) => {
           return <DisplayData key={item.id} blog={item}></DisplayData>;

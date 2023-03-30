@@ -2,18 +2,26 @@ import React from "react";
 import "./display.css";
 const DisplayData = (props) => {
   console.log(props.blog);
-  const { id, author, title, images, read_time } = props.blog;
+  const { id, publish_date, author, title, images, read_time } = props.blog;
   return (
     <div className="displaydata">
       <h6>Inside Displaydata</h6>
       <img src={images.blog_cover_image}></img>
-      <div>
-        {/* <img src={images.author_image}> </img> */}
-        <p>author:{author}</p>
+      <div className="firstPara">
+        <div className="firstpartOfFirstPara">
+          {/* <img src={images.author_image}> </img> */}
+          <p>Author pic</p>
+          <div className="insideFirstpart">
+            <p>{author}</p>
+            <p>{publish_date}</p>
+          </div>
+        </div>
+        <div className="secondpartOfFirstPara">
+          <p>{read_time}</p>
+          <button>Click</button>
+        </div>
       </div>
-
-      <h1>title:{title}</h1>
-      <p>read_time:{read_time}</p>
+      <h2>{title}</h2>
       <button> mark as read</button>
     </div>
   );

@@ -3,3 +3,17 @@
   left: 320px;
   border-radius: 8px;
 }
+.firstPara {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstpartOfFirstPara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.secondpartOfFirstPara {
+  display: flex;
+}
