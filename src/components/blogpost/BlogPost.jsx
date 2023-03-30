@@ -1,11 +1,22 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import "./blogpost.css";
+// import DisplayData from "../displayData/DisplayData";
 const BlogPost = () => {
+  const [post, setPost] = useState([]);
+
+  useEffect(() => {
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((data) => setPost(data));
+  }, []);
   return (
     <div>
       <h1>Blog Post</h1>
-      const [post, setPost] = useState([])
+      <h6>Total Blog: {post.length}</h6>
+      {post.map((item) => {
+        return item.id;
+      })}
     </div>
   );
 };
