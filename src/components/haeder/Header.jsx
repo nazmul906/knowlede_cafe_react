@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="header">
       <h5>Knowledge Cafe</h5>
-      <div>
+      <div className="link">
         <a>Login</a>
         <a>Contact</a>
         <a>Blog</a>

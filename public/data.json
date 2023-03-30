@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "author": "John Smith",
+    "title": "10 Tips for Effective Time Management",
+    "images": {
+      "blog_cover_image": "https://example.com/images/time-management-cover.jpg",
+      "author_image": "https://example.com/images/john-smith.jpg"
+    },
+    "read_time": "5 min read"
+  },
+  {
+    "id": 2,
+    "author": "Jane Doe",
+    "title": "The Benefits of Yoga for Mental Health",
+    "images": {
+      "blog_cover_image": "https://example.com/images/yoga-cover.jpg",
+      "author_image": "https://example.com/images/jane-doe.jpg"
+    },
+    "read_time": "7 min read"
+  },
+  {
+    "id": 3,
+    "author": "Bob Johnson",
+    "title": "Why Everyone Should Learn to Code",
+    "images": {
+      "blog_cover_image": "https://example.com/images/coding-cover.jpg",
+      "author_image": "https://example.com/images/bob-johnson.jpg"
+    },
+    "read_time": "10 min read"
+  },
+  {
+    "id": 4,
+    "author": "Sara Lee",
+    "title": "Healthy Eating on a Budget",
+    "images": {
+      "blog_cover_image": "https://example.com/images/healthy-eating-cover.jpg",
+      "author_image": "https://example.com/images/sara-lee.jpg"
+    },
+    "read_time": "8 min read"
+  }
+]
