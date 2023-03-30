@@ -23,7 +23,13 @@ const DisplayData = (props) => {
         </div>
         <div className="secondpartOfFirstPara">
           <p>{read_time}</p>
-          <button onClick={handleDashboard}>Click</button>
+          <button
+            onClick={() => {
+              handleDashboard(id);
+            }}
+          >
+            Click
+          </button>
         </div>
       </div>
       <h2>{title}</h2>

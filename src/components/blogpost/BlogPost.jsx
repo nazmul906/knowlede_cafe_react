@@ -5,15 +5,17 @@ import DisplayData from "../displayData/DisplayData";
 import Dashboard from "../dashboard/Dashboard";
 const BlogPost = () => {
   const [post, setPost] = useState([]);
-
+  const [count, setCount] = useState(1);
   useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())
       .then((data) => setPost(data));
   }, []);
 
-  const handleDashboard = () => {
-    console.log("clicked");
+  const handleDashboard = (id) => {
+    console.log("I am beign clicked from blogpost", id);
+    const newCount = count + 1;
+    setCount(newCount);
   };
   return (
     <div className="mainContainer">
@@ -31,7 +33,7 @@ const BlogPost = () => {
         })}
       </div>
       <div className="dashboardContainer">
-        <Dashboard></Dashboard>
+        <Dashboard dashData={count}></Dashboard>
       </div>
     </div>
   );
