@@ -11,13 +11,23 @@ const BlogPost = () => {
       .then((res) => res.json())
       .then((data) => setPost(data));
   }, []);
+
+  const handleDashboard = () => {
+    console.log("clicked");
+  };
   return (
     <div className="mainContainer">
       <div className="blogdisplaycontainer">
         {/* <h1>Blog Post</h1> */}
         <h6>Total Blog: {post.length}</h6>
         {post.map((item) => {
-          return <DisplayData key={item.id} blog={item}></DisplayData>;
+          return (
+            <DisplayData
+              key={item.id}
+              blog={item}
+              handleDashboard={handleDashboard}
+            ></DisplayData>
+          );
         })}
       </div>
       <div className="dashboardContainer">

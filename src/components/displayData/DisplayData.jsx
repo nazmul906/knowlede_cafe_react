@@ -1,8 +1,13 @@
 import React from "react";
 import "./display.css";
 const DisplayData = (props) => {
-  console.log(props.blog);
+  console.log(props);
   const { id, publish_date, author, title, images, read_time } = props.blog;
+
+  // const handleDashboard = () => {
+  //   console.log("clicked");
+  // };
+  const handleDashboard = props.handleDashboard;
   return (
     <div className="displaydata">
       <h6>Inside Displaydata</h6>
@@ -18,7 +23,7 @@ const DisplayData = (props) => {
         </div>
         <div className="secondpartOfFirstPara">
           <p>{read_time}</p>
-          <button>Click</button>
+          <button onClick={handleDashboard}>Click</button>
         </div>
       </div>
       <h2>{title}</h2>
