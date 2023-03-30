@@ -4,10 +4,11 @@ const Header = () => {
   return (
     <div className="header">
       <h5>Knowledge Cafe</h5>
-      <div></div>
-      <a>Login</a>
-      <a>Contact</a>
-      <a>Blog</a>
+      <div>
+        <a>Login</a>
+        <a>Contact</a>
+        <a>Blog</a>
+      </div>
     </div>
   );
 };
