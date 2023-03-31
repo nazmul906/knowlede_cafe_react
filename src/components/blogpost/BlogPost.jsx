@@ -6,6 +6,7 @@ import Dashboard from "../dashboard/Dashboard";
 const BlogPost = () => {
   const [post, setPost] = useState([]);
   const [count, setCount] = useState(0);
+  const [toastCount, setToastCount] = useState(0);
   const [bookmarked, setBookmarked] = useState([]);
   const [minread, setMinread] = useState([]);
   useEffect(() => {
@@ -15,7 +16,6 @@ const BlogPost = () => {
   }, []);
 
   const handleDashboard = (id) => {
-    //const savecart = [];
     // console.log("I am clicked from blogpost", id);
     const newCount = count + 1;
     setCount(newCount);
@@ -35,8 +35,10 @@ const BlogPost = () => {
     // }
   };
 
-  const handleMinRead = (pid) => {
-    //  console.log("I am clicked by mark read", id);
+  const handleMarkAsRead = (pid) => {
+    const newcount = toastCount + 1;
+    setToastCount(newcount);
+    console.log("I am clicked by mark read", toastCount);
     const marked = post.find((item) => item.id === pid);
     const saved = [...minread, marked];
     console.log("marked", saved);
@@ -47,14 +49,15 @@ const BlogPost = () => {
       <div className="blogdisplaycontainer">
         {/* <h1>Blog Post</h1> */}
         {/* {bookmarked.map((item) => console.log("bookmark", item))} */}
-        <h6>Total Blog: {post.length}</h6>
+        {/* <h6>Total Blog: {post.length}</h6> */}
         {post.map((item) => {
           return (
             <DisplayData
               key={item.id}
               blog={item}
+              bookmarkCount={count}
               handleDashboard={handleDashboard}
-              handleMinRead={handleMinRead}
+              handleMarkAsRead={handleMarkAsRead}
             ></DisplayData>
           );
         })}
