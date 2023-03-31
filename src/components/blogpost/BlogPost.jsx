@@ -61,7 +61,7 @@ const BlogPost = () => {
       </div>
       <div className="dashboardContainer">
         <Dashboard
-          dashData={count}
+          bookmarkCount={count}
           bookmarked={bookmarked}
           minread={minread}
         ></Dashboard>

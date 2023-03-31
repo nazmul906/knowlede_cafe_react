@@ -11,7 +11,6 @@ const DisplayData = (props) => {
   const handleMinRead = props.handleMinRead;
   return (
     <div className="displaydata">
-      <h6>Inside Displaydata</h6>
       <img src={images.blog_cover_image}></img>
       <div className="firstPara">
         <div className="firstpartOfFirstPara">
