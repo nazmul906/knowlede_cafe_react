@@ -6,7 +6,7 @@ import Dashboard from "../dashboard/Dashboard";
 const BlogPost = () => {
   const [post, setPost] = useState([]);
   const [count, setCount] = useState(0);
-  const [toastCount, setToastCount] = useState(0);
+
   const [bookmarked, setBookmarked] = useState([]);
   const [minread, setMinread] = useState([]);
   useEffect(() => {
@@ -36,9 +36,7 @@ const BlogPost = () => {
   };
 
   const handleMarkAsRead = (pid) => {
-    const newcount = toastCount + 1;
-    setToastCount(newcount);
-    console.log("I am clicked by mark read", toastCount);
+    //console.log("I am clicked by mark read");
     const marked = post.find((item) => item.id === pid);
     const saved = [...minread, marked];
     console.log("marked", saved);

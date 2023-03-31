@@ -1,11 +1,29 @@
 import React from "react";
 import "./display.css";
+import { useState, useEffect } from "react";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+const notify = () => toast("Double clicked");
 const DisplayData = (props) => {
-  const notify = () => toast("You have already bookmarked this!");
-  //  console.log("disp", props);
+  const [toastCount, setToastCount] = useState(0);
+  // const cnt = props.bookmarkCount;
+
+  // const notify = () => toast("You have already bookmarked this!");
+  // if (cnt > 1) {
+  //   notify();
+  // }
+
+  const handleToast = () => {
+    const newcount = toastCount + 1;
+    setToastCount(newcount);
+  };
+  console.log("cnt", toastCount);
+  if (toastCount > 1) {
+    console.log("cnt is clicked");
+    notify();
+  }
+  //console.log("disp", props);
   const {
     id,
     publish_date,
@@ -44,7 +62,7 @@ const DisplayData = (props) => {
           <button
             onClick={() => {
               handleDashboard(id);
-              notify();
+              handleToast();
             }}
           >
             <svg
@@ -69,6 +87,7 @@ const DisplayData = (props) => {
       >
         Mark as read
       </button>
+      <ToastContainer />
     </div>
   );
 };
