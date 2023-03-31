@@ -18,12 +18,18 @@ const DisplayData = (props) => {
     const newcount = toastCount + 1;
     setToastCount(newcount);
   };
-  console.log("cnt", toastCount);
-  if (toastCount > 1) {
-    console.log("cnt is clicked");
-    notify();
-  }
-  //console.log("disp", props);
+  useEffect(() => {
+    if (toastCount > 1) {
+      notify();
+    }
+  }, [toastCount]);
+
+  // console.log("cnt", toastCount);
+  // if (toastCount > 1) {
+  //   console.log("cnt is clicked");
+  //   notify(); //if we do like this it render multiple times so rather use USeeffect to control it
+  // }
+
   const {
     id,
     publish_date,
