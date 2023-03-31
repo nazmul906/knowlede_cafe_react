@@ -5,7 +5,7 @@ import DisplayData from "../displayData/DisplayData";
 import Dashboard from "../dashboard/Dashboard";
 const BlogPost = () => {
   const [post, setPost] = useState([]);
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(0);
   const [bookmarked, setBookmarked] = useState([]);
   useEffect(() => {
     fetch("data.json")
