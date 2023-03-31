@@ -1,7 +1,7 @@
 import React from "react";
 import "./display.css";
 const DisplayData = (props) => {
-  console.log(props);
+  //console.log(props);
   const { id, publish_date, author, title, images, read_time } = props.blog;
 
   // const handleDashboard = () => {

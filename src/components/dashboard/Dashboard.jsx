@@ -1,12 +1,16 @@
 import React from "react";
 
-const Dashboard = ({ dashData }) => {
-  console.log("Inside Dashboard", dashData);
-  let count = 0;
+const Dashboard = (props) => {
+  const { dashData } = props.dashData;
+  const [bookmarked] = props.bookmarked;
+
+  console.log("inside dashboard bookmark ", bookmarked);
+
+  //let count = 0;
   return (
     <div className="dashboard">
-      <h1>Spend time on read</h1>
-      {count + dashData}
+      {" "}
+      <h3>Spend time on read: {dashData}</h3>
     </div>
   );
 };
