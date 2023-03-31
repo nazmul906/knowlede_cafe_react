@@ -5,6 +5,11 @@ const Dashboard = (props) => {
   //  const [bookmarked] = props.bookmarked;
   let count = 0;
 
+  props.minread.forEach((item) => {
+    count = count + parseInt(item.read_time);
+    console.log("count", count);
+    return count;
+  });
   // console.log("inside dashboard bookmark ", props);
 
   return (
