@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "author": "John Smith",
-    "title": "Tips for Effective Time Management",
+    "author": "Tomas Shelly",
+    "title": "Beautiful Coastlines Around The World Worth A Visit",
     "images": {
       "blog_cover_image": "https://images.unsplash.com/photo-1679033734823-8fe535dc31ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "author_image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUSERASEhEVEREREBISEhISDxEREhESGhUZGRkZGRkcIS4lHB4rHxYYJjgmKy8xNTU1HDE7QjszPy40NTQBDAwMEA8QHhISHzQhJCM0NDE1NDQ0NDQ0NDExNDExMTQxNDQ0NzQ0NDE0NDQ0NDQxNDQ0NDE0NDQ0NDQ0NDQ0NP/AABEIAOAA4AMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAQIEBQYHAwj/xABAEAACAQICBgYGCAYBBQAAAAAAAQIDEQQSBQYTITFRQWFxgZGhByIyUrHBI0JicoKS0eEUQ1OisvDCFSQzY3P/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQMEAgUG/8QAMBEBAAICAAIHBwMFAAAAAAAAAAECAxESIQQFMUFRcbETMmGRwdHwFIHhIiNSofH/2gAMAwEAAhEDEQA/APXgQAJBAAkEACQQAJBAAkEACQQAJBSM072adnZ2d7PkWAkEACQQAJBAAkEACQQAJBAAgEACQQAJBAAkEACQQAJBB5P6QfSTKEpYTR0k5J5auJVnlk92Wn0X+14c0HZ62654fR0JKc1UxLS2eGhJbSUnwze7HrfLdd7jjtN+kt1MJTWElGFepTcqs4qT2Est3CCkva3+01b1XboPKX6s5zqSc6jlLNKTblKUZLNve9ve33H2pYiMaaaSyu2Z8s0JQa7rLxA7P0Z68So4qpTxlSTo4iMFCc5NxoTi2o8eEZXab573xbPcoTUkpRalFq6aaaa6mj8s4SEXCm3b1YShU3LhNzcfBpeJt9Baz4nCx/7XFSp04ynLYzUZ0rKUbrLLhun0W9kD9Ig8u1d9LMJz2OkKaw808u2p5pUW729aL3xXXvXYem0qsZxjOElOEkpRlFqUZRfBprigPoCABIIAEggASCABIIAFQRcXAkEXFwJBFxcCQRcXAkEXFwPP/S3rVLCYeOFozccRiU80ou0qdFbpNcnJ+qu88LjUtGko+0pub63dKK8vM6b0pYuVXS+KTd1TcKUFyjGC3fmcn3nb6laowwlOFatFSxU0pNySewuvZjylZ733cOPGTJFI3LvHSbzqHnmE1Rx9dZo4aUYyk3mqyjS387SafkZlTUDHxi7U4STW+Ma9O7/M0uheB7MXhRb6u0y/qb92mr9PSI5y8YweoOPlGScIUU2rqpVjd24ezcjE+j3HQTcY06nNU6qzW6d0lG57WsN1+REsO+Y9vk+CPY435xxkJwdSFaEoVVOLcZpxlHc73T5+qdz6KdcpYWvDB1pt4WvNRhmd1Qqye5rlGTdmuF3fnfsNcdWljaEllSxFOLdGdrO/HI37r4dT3nhjTi7O8WnvW9NNfM048nHG2fJj4Jfr0g1Oq2PeJwODry3yqYenKf38tpeaZtblitJJW4uBIIuLgSCLi4Egi4uBAIAEggASCABIIAEggAeF4jR221nrxkrxhiJV5LqjBSj5uJ6dFXZy1XCZNZcZL+rgI1V40oO35WdhTjbtMWed3024OVN+K1Oml28z7xiVSPrEriHUrxgTKBMWWbOnLDq0z8/6/YDYaRxUUrRnJVo9k0pP+5yXcfoWZ4z6YcNbF4eovr4bJbrhOXykvAsw8ruM3Or1P0bRa0RgL/0pPuc5NHTms1ewX8Pg8LQfGlh6cJfeUFm87myNbKkEACQQAJBAAkEACAVuLgWBW4uBYFbi4FgVuLgWBW4uByOkMMpaVpYiMXZ4CtRlLdZyhWpyj/nLwNpEpVjabXJyS6t7/YvEwXmZtO26kRFY0+kT6xZ8ossmcpfZMhyKXDkSgkzi9cNEfxGO0Q2rwhWrOe66tGMaiT6m4Nd52MmY1dJtO2+N7PpV7J+VxFtTuCa7jUt7RqZoxlwur25Fz5UIZYRjyik+3pL3PQYVgVuLgWBW4uBYFbi4FgVuLgRcXK3FwLXFytxcC1xcrcXAtcXK3FwLXFytxcDA0hR351wk0n1O25+SMVM21aGeLjzXHk+h+Jqep7mtzXJmTPTU8Xi1YLbjhnuXTLpnyFyhe+1yHI+eYi4QtKRbC0s01fgmpS+S/wB6z5NmywdPLHf7Ut76uS8C7DTitvwV5bcNfNk3Fytxc2Ma1xcrcXAtcXK3FwLXFytxcC1xcrcXArcXAAAAAAAAAAC4AEmp0lWUKsV0TjeT5O9k/wDeRsK9eNNXm0l0c2+S5mDiKG2oyqpb4z4cbQSW7zuV5qWnFMx3LMU6vG3zBiUajjue9eaMqM0+nx3GCJ23aSCsppdPzPhVqt7luXPpYmYhGn3w9dOtCHFJtyfRe25eNjdGiw2HywlPg7pRfY03528DbYbExmrrc+mPSv2NvR629lxT4smeY49R3PsAC5SAAAAAAAAAACoKgCwK3AFgVAFgfKrVjCLlJ2iuLNBjdLym2oNwj1e0+19HcW4sN8s6r80xG2+r4mFNXnJR7XvfYuLNVitNt7qUfxSXwX6mny3d5O76d92+8vFpcDdj6HSvvc/T7p0+ycpSzzk5T63ex0urU1KFWD3pSTa6pJr/AInK5zeaq1vppw96nfvTXybO+kU/szruJWx2CdObj9V74vmv1RjZDrsRQjUjlkux9KfNGlxGjpQu7Zo810LrXQfOZMMxO47GrHm3GrdrV5D6YfDOc1GK3vi+hLpbMvC4V1PYacfeumvLibzC4WNNWjxfGT4simGbTz7E3zRWOXa1OmYKnSUY8I2S8Tno1WmmnZrg07NG81pqWhFe9PySf6o5rOfQ9DpHsvP/AIx9rb0dKyW6aU1zW6X6PyNhh8bCpuUrP3Zbn+/ccxnGcnJ0OluzknTrwc7hdKShZS9ePJveuxm8w+IjUjmg7rpXSnyZgy4b4/e+bl9gVBULAqALAqAIuLlbi4E3JuVuLgWuLlblK1RQhKT4Ri34AaTTmKzTyJ+rDj1y/Y1akUr1ryd3vbbfa958s57uLH7OkV/N96xk5xnMbOM5ZoZOc2GgsRlxNF33OWR/ivFebRps5NKu4yjJcYyUl2p3ObU4qzXxHqNSsopybsl3+HN9R4N6TtY8TWxlfCznKnhqTioUItxjNOEZZpte23m4cFbd0t+24SO0jGb9l74L5/oeV+mfQMozoY6EbwlFUKzX1ZxbcJPqaclf7K5ngK3G6m6bxGExNPYVZRhJvPSu3SqdUo8L9as+s/R+DxGeKbWWaSzRvfK7c+ldZ4B6MdCSxekYSt9DhrVaz6OnJDtlJeEWe/bLLJTXFbpL3o/txXfzJHM63VvpacPdpuX5nb/iaDOZWseJz4qtv3RkoL8KSfnc1mc9rBThxVj4fy7hk5xnMbOM5dpLJzmRgMW6c4yv6raUlzia7OM5zakWiaz3ju7k3MDRGIz0YO++KyPtW74WM254NqzWZie5Wm5NytxcgWuLlbi4Fbi4AC4uABJrtO1slF/akl3Lf8jYHMa4Ym2zp81KT7Lr9C7o1OPLWPj6c0x2tHKrdt8yNoYe1G1Pe07Zm0G0MPajajQzNoNoYe1G1Gh6xqtXz4Og+mMXB/hbivJI839OOlLyweDi/ZUsTUXW706fltTr/R3is1KvTvvhUjNdk42+MH4njfpC0h/EaVxs73jCrsIdUaSUHbqzRm+88HpFOHLaPj683Etj6INJOjpaNNt5cVSqUXv3ZoraRb/I1+I/QT3b3wW8/KGiMf8Aw2Lw2Iu/oMRSqO3HLGScl3q67z9O6w4rZ4PETT/lOMX9qfqxfjJFVazaYiO9DzPEYnPOpP3pyn+aTfzPntDDzjan0etdixmbQbQw9qNqNDM2g2hh7UbUaHW6qYnfUg30Ka+D+R0lzgtXsTlxVPlO8H3rd52O8PG6bThyzPjz+n0cSXFwDIguLgAUJuRcATcXIAE3OE1wr3xOX3KcF43fzO6ueaazVM2LxD5SUfBJG7q+u82/CJ+kJhh7QbQx7kXPa06ZO0G0MYXGhk7QbQxgNDrtRtJqjiKuZ+rLDVZW5ygtp/jGZ47Ko5tzk7zm3OT5yk7t+LZ2k5yjGeR2m6dSCf34Sg/KTOJR4/WNNZIt4x6fkIl8K3Se56X05tdDaL9a88RSpyqPm6cFGf8AfbwPDax2OhcRKWEw0Jv1KUakaa5RlVnNvtbk/Iq6FTizR8Of5+6IbTaDaGPcg93Tpk7QbQxri40MnaDaGMLjQzsLiMlSnP3Jwl4STPU7nj9z1nBzzUqcvepwfjFHl9ZV9yfOPRFn3uQAeW5ALgCoIAEggAWPLtMSvicQ/wD3VP8AJo9PPNtYsM6eJrJrdObnF84y3/G67j0OrZj2k+X1hMNWAD2XQAAAAAk5DG0slSpHoUnbse9eTR1xotYaFpQqdEllfat68r+Bh6wx8WLi/wAZ9eSJc/VTe5b23ZLmzusNSyQjBfUgo+CsctojDbSvD3afrvu4edvA6wr6ux6ra/jy+X5/ogAB6SQAAAABJ6poz/wUP/jT/wAUeVpX3Le3uSXFs9WwUHClTi+MaUIvtUUjy+s+yn7/AERZ9wQLnlOUgi4AgAABcACTFxuBp1o5akFNLg3ulHsa3oyQTEzE7gcnjtT1vdGpb7FRXXdJfoaLFaCxFO+alKS96n9IvLeekg14+n5q9v8AV5p28lkrOz3Pk9zKnqtfC06itOnCf3oRl8TXV9WsPP6ji/sScfLga69ZUn3qzHlqfsnbzsHZ1tTYP2K04/ejGfwsYdXU+qvZqwl25ofqX16bgnv15xP2Nw5g+GPw20pSh02vHqkuH6d50c9V8QuEYS+7NfOxjz0BiVxoS7ssvgzuc2C8TXijn8YS5vQ2D2dNuStOo05c0uhfF95sDP8A+jYj+hP8hK0NiX/In+WxOO2HHWKxaOXxj7jXg2sNX8S/5LXbKC+Zk09VMQ+OSHbUv8ExPScMdt4+e/Q20IOsoamv+ZXS6oQb82/kbPDaq0Ie0p1H9uVl4RsU26fhr2bnyj76RtwUYttJJtvgkrt9xtsFq5iKlnl2cfeqer/bxO8w+Dp01anThD7sUvMyDLk6ytPKldefP+PVG2k0Rq3ToSU5N1Ki4Nq0YvnGPPrZvCAYL3teeK07lAADgAABUEACQQAJBAAkEACQQAJBAAkEACQQAJBAAkEACQQAJBAAkEACQQAP/9k="
@@ -12,8 +12,8 @@
   },
   {
     "id": 2,
-    "author": "Jane Doe",
-    "title": "The Benefits of Yoga for Mental Health",
+    "author": "Sam Smith ",
+    "title": "40 Best Beaches on the East Coast",
     "images": {
       "blog_cover_image": " https://media.istockphoto.com/id/92509990/photo/sea-view-in-italy.jpg?s=170667a&w=0&k=20&c=s_oJziqr79AjrNhTlzDeqpVGWnuUhZnJjHtTA7jfl9M=",
       "author_image": "https://www.clipartmax.com/png/middle/231-2318072_if-you-are-self-employed-passport-size-photo-cartoon.png"
@@ -23,10 +23,10 @@
   },
   {
     "id": 3,
-    "author": "Bob Johnson",
-    "title": "Why Everyone Should Learn to Code",
+    "author": "David Millar",
+    "title": "Impact of Global Warming",
     "images": {
-      "blog_cover_image": " https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "blog_cover_image": "https://www.wwf.org.au/Images/UserUploadedImages/416/img-dried-up-farmer-watering-hole-victoria-1000x600.jpg",
       "author_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSApPC_c5fONsbkTJlIiOJyaRrQsrnaEdmrdA&usqp=CAU"
     },
     "read_time": "10",
@@ -34,8 +34,8 @@
   },
   {
     "id": 4,
-    "author": "Sara Lee",
-    "title": "Healthy Eating on a Budget",
+    "author": " Charles",
+    "title": "How to read Article Effectively",
     "images": {
       "blog_cover_image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       "author_image": "https://cpng.pikpng.com/pngl/s/159-1591559_flat-faces-icons-circle-girl-flat-icon-png.png"
