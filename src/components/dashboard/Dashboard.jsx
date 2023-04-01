@@ -21,10 +21,10 @@ const Dashboard = (props) => {
         <h4>Time spent on read :{count} min</h4>
       </div>
 
-      <div style={{ marginTop: "25px" }}>
+      <div className="bookmarkedDashBoad">
         <h3 style={{ textAlign: "center" }}>
           {" "}
-          Bookmarked Blog: {props.bookmarkCount}
+          Bookmarked Blogs: {props.bookmarkCount}
         </h3>
 
         {props.bookmarked.map((item) => {

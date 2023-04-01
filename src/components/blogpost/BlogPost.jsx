@@ -61,6 +61,16 @@ const BlogPost = () => {
         })}
       </div>
       <div className="dashboardContainer">
+        {/* {post.map((item) => {
+          return (
+            <Dashboard
+              key={item.id}
+              bookmarkCount={count}
+              bookmarked={bookmarked}
+              minread={minread}
+            ></Dashboard>
+          );
+        })} */}
         <Dashboard
           bookmarkCount={count}
           bookmarked={bookmarked}
