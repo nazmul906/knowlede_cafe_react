@@ -2,14 +2,18 @@ import React from "react";
 import "./header.css";
 const Header = () => {
   return (
-    <div className="header">
-      <h5>Knowledge Cafe</h5>
+    <nav className="header">
+      <h5>Trending Blog</h5>
       <div className="link">
-        <a>Login</a>
+        {/* <a>Login</a>
         <a>Contact</a>
-        <a>Blog</a>
+        <a>Cart</a> */}
+        <img
+          style={{ width: "60px", height: "60px" }}
+          src="https://cpng.pikpng.com/pngl/s/159-1591559_flat-faces-icons-circle-girl-flat-icon-png.png"
+        ></img>
       </div>
-    </div>
+    </nav>
   );
 };
 

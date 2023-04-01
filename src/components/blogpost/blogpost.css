@@ -21,5 +21,12 @@
   .mainContainer {
     display: flex;
     flex-direction: column;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
   }
 }

@@ -29,7 +29,7 @@ const Dashboard = (props) => {
 
         {props.bookmarked.map((item) => {
           return (
-            <div className="blogTitle  ">
+            <div className="blogTitle">
               <h4 className="blogtext">{item.title}</h4>
             </div>
           );
