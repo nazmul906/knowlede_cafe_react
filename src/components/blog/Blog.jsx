@@ -7,7 +7,7 @@ const Blog = () => {
       <h2 className="titleQA">Questions and Answer</h2>
       <h3>State vs Props</h3>
       <p>
-        Main difference between state and props is that state is mutable or
+        One big difference between state and props is that state is mutable or
         changable where props is read only data, means you can't change or
         update it.
       </p>
@@ -42,8 +42,8 @@ const Blog = () => {
       <p>
         React is a JS library which work creating a virtual Dom in its memory,
         react detect difference between virtual and original Dom with DIFF
-        Algortihm and only change that part of the tree means only render that
-        changed part int he component, so it is faster.
+        Algortihm and only change that part of the tree so it means it is
+        faster.
       </p>
     </div>
   );
