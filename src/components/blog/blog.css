@@ -1,4 +1,22 @@
 .Blog {
-  margin-top: 40px;
+  margin-top: 50px;
   margin: 20px;
+}
+.titleQA {
+  text-align: center;
+  border: 2px solid maroon;
+  margin: 0 auto;
+  padding: 10px;
+  width: 460px;
+}
+
+@media only screen and (max-width: 572px) {
+  .titleQA {
+    text-align: center;
+    border: 2px solid maroon;
+    margin: 0 auto;
+    padding: 10px;
+    width: 260px;
+    margin-bottom: 20px;
+  }
 }
