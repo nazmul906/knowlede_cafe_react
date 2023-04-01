@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-const notify = () => toast("Double clicked");
+const notify = () => toast("You have already bookmarked this!");
 const DisplayData = (props) => {
   const [toastCount, setToastCount] = useState(0);
   // const cnt = props.bookmarkCount;

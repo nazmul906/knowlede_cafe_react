@@ -1,7 +1,19 @@
+.spentTime {
+  background-color: rgba(96, 71, 236, 0.1);
+  border: 1px solid #6047ec;
+  border-radius: 8px;
+
+  padding: 25px 50px;
+}
+.spentTime h4 {
+  color: #6047ec;
+  text-align: center;
+}
+
 .blogTitle {
   border: 2px solid black;
-  padding: 10px;
-  margin: 15px;
+  padding: 20px;
+  margin: 30px;
   text-align: center;
 }
 .blogtext {
