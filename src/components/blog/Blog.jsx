@@ -15,7 +15,7 @@ const Blog = () => {
       <p>
         We know that useState is a react hook, which is used to observe the
         update of an state as state is changable. So when we need to change a
-        variable data and track it's change we use it.
+        variable data and track it's change we use useState.
       </p>
       <h3>Purpose of useEffect other than fetching data?</h3>
       <p>

@@ -13,9 +13,11 @@
   margin: 30px;
 }
 
-/* @media only screen and (max-width: 572px) {
+@media only screen and (max-width: 572px) {
   .header {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+
+    margin-bottom: 25px;
   }
-} */
+}
